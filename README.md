@@ -1,5 +1,9 @@
 # Medical Insurance Costs — Statistical Dashboard
 
+**🔴 Live app:** [insurancestatdash.streamlit.app](https://insurancestatdash.streamlit.app/)
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://insurancestatdash.streamlit.app/)
+
 An end-to-end data science project (EDA → hypothesis testing → OLS regression →
 Gauss-Markov diagnostics) delivered as a 3-tab interactive Streamlit app.
 

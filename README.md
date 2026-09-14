@@ -18,7 +18,6 @@ Gauss-Markov diagnostics) delivered as a 3-tab interactive Streamlit app.
 pip install -r requirements.txt
 streamlit run app.py
 ```
-(If `streamlit` isn't recognized as a command on Windows, use `python -m streamlit run app.py` instead.)
 
 ## Dataset Summary
 
@@ -102,8 +101,3 @@ to no significant relationship with cost once smoking and BMI are accounted for.
   (p ≈ 0), and Breusch-Pagan flags heteroscedasticity — expected for right-skewed
   cost data. VIFs for age/bmi/children are all ≈ 1, so multicollinearity is not a
   concern among the continuous predictors.
-
-## Deploying (optional)
-
-Push this folder to GitHub and deploy free on
-[Streamlit Community Cloud](https://streamlit.io/cloud), pointing it at `app.py`.
